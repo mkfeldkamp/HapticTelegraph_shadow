@@ -16,9 +16,9 @@ All parts required for the different configurations of the telegrpaph are linked
 
 [Haptic Telegraph Assembly Guide](https://docs.google.com/document/d/17Dt6qZLQLV2zLom0jG1yqs2Jcs7Xk3iRWMrtn3mGbbk/preview)
 
-![Parts Kit Inventory]("HapticTelegraphKitInventory.png")
+![Parts Kit Inventory](HapticTelegraphKitInventory.png)
 
-![Kit Toolbox]('HapticTelegraphKitToolbox.png')
+![Kit Toolbox](HapticTelegraphKitToolbox.png)
 
 
 
