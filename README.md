@@ -12,9 +12,10 @@ The Haptic Telegraph is an open-source educational project to learn the basics o
 
 ## Building and Assembly 
 All parts required for the different configurations of the telegrpaph are linked here.  The kit has hobby servo motors, N20 gear motor+encoders, direct drive DC motor for capstan, or DC motorized slide-potentiometer actuators.  The servo and N20 configurations are the default.  
-##[BOM and Kit Inventory](https://docs.google.com/spreadsheets/d/1TIM3guZMqlwLRaXGF0uH3Ged3IqBKqTgrUTtAIh1ZG8/preview)
 
-[##Haptic Telegraph Assembly Guide](https://docs.google.com/document/d/17Dt6qZLQLV2zLom0jG1yqs2Jcs7Xk3iRWMrtn3mGbbk/preview)
+[BOM and Kit Inventory](https://docs.google.com/spreadsheets/d/1TIM3guZMqlwLRaXGF0uH3Ged3IqBKqTgrUTtAIh1ZG8/preview)
+
+[Haptic Telegraph Assembly Guide](https://docs.google.com/document/d/17Dt6qZLQLV2zLom0jG1yqs2Jcs7Xk3iRWMrtn3mGbbk/preview)
 
 ![Parts Kit Inventory](HapticTelegraphKitInventory.png)
 
