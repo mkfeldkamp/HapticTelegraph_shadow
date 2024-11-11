@@ -16,6 +16,12 @@ All parts required for the different configurations of the telegrpaph are linked
 
 [Haptic Telegraph Assembly Guide](https://docs.google.com/document/d/17Dt6qZLQLV2zLom0jG1yqs2Jcs7Xk3iRWMrtn3mGbbk/preview)
 
+![Parts Kit Inventory]("HapticTelegraphKitInventory.png")
+
+![Kit Toolbox]('HapticTelegraphKitToolbox.png')
+
+
+
 
 ## Software and Firmware
 A brief introduction to the python scripts to teleoperate the kit and to run the firmware can be found here:
@@ -28,9 +34,5 @@ V. Hayward and K. E. Maclean, "Do it yourself haptics: part I," in IEEE Robotics
 
 A widely acclaimed, more thorough treatment from Prof. Allison Okamura is here:
 https://web.stanford.edu/class/me327/
-
-![Parts Kit Inventory]("Haptic Telegraph Kit Inventory.png")
-
-![Kit Toolbox]('Haptic Telegraph Kit Toolbox.png')
 
 
