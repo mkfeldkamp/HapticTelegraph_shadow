@@ -9,13 +9,6 @@ The Haptic Telegraph is an open-source educational project to learn the basics o
 
 ![The Haptic Telegraph](HapticTelegraph3Dmodel.png)
 
-A great introduction to haptics, teleoperation, and related terminology can be found here:
-[Do It Yourself Haptics: Part I](https://ieeexplore.ieee.org/document/4437756)  Citation: 
-V. Hayward and K. E. Maclean, "Do it yourself haptics: part I," in IEEE Robotics & Automation Magazine, vol. 14, no. 4, pp. 88-104, Dec. 2007, doi: 10.1109/M-RA.2007.90792
-
-A widely acclaimed, more thorough treatment from Prof. Allison Okamura is here:
-https://web.stanford.edu/class/me327/
-
 
 ## Building and Assembly 
 All parts required for the different configurations of the telegrpaph are linked here.  The kit has hobby servo motors, N20 gear motor+encoders, direct drive DC motor for capstan, or DC motorized slide-potentiometer actuators.  The servo and N20 configurations are the default.  
@@ -27,6 +20,14 @@ All parts required for the different configurations of the telegrpaph are linked
 ## Software and Firmware
 A brief introduction to the python scripts to teleoperate the kit and to run the firmware can be found here:
 [Haptic Telegraph Software Guide](https://docs.google.com/document/d/1zL3_G8BJS4lk9wN5zXE0Af6u3FeUNIUszWQ2UWdJn5c/preview)
+
+## More Info
+A great intro to haptics, teleoperation, and related terminology can be found here:
+[Do It Yourself Haptics: Part I](https://ieeexplore.ieee.org/document/4437756)    
+V. Hayward and K. E. Maclean, "Do it yourself haptics: part I," in IEEE Robotics & Automation Magazine, vol. 14, no. 4, pp. 88-104, Dec. 2007, doi: 10.1109/M-RA.2007.90792
+
+A widely acclaimed, more thorough treatment from Prof. Allison Okamura is here:
+https://web.stanford.edu/class/me327/
 
 ![Parts Kit Inventory]("Haptic Telegraph Kit Inventory.png")
 
