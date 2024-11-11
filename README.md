@@ -7,10 +7,10 @@ Fall 2024
 
 The Haptic Telegraph is an open-source educational project to learn the basics of mechatronic sensing and control of motion, force, and impedance for one or more degrees or freedome along with basi teleoperation.  Inspired by the [HapKit](https://hapkit.stanford.edu/) open source Haptics learning kit, the the haptic telegraph has two degrees of freedom (DOF) with the option to teleoperate over the internet and interconnect different haptic telegraphs to experiment with bilateral teleoperation.  Sensings includes servo potentiometers, encoders, and load cells (HX711) for hobby servo and N20 gearmotors; a DRV8833 H-Bridge for driving up to two DC motors, and a simple way of attaching actuators in various configurations.  
 
-Image	![The Haptic Telegraph](HapticTelegraph 3D Model.png)
+![The Haptic Telegraph](HapticTelegraph3Dmodel.png)
 
 A great introduction to haptics, teleoperation, and related terminology can be found here:
-[Do It Yourself Haptics: Part I](https://ieeexplore.ieee.org/document/4437756)
+[Do It Yourself Haptics: Part I](https://ieeexplore.ieee.org/document/4437756)  Citation: 
 V. Hayward and K. E. Maclean, "Do it yourself haptics: part I," in IEEE Robotics & Automation Magazine, vol. 14, no. 4, pp. 88-104, Dec. 2007, doi: 10.1109/M-RA.2007.90792
 
 A widely acclaimed, more thorough treatment from Prof. Allison Okamura is here:
@@ -28,8 +28,8 @@ All parts required for the different configurations of the telegrpaph are linked
 A brief introduction to the python scripts to teleoperate the kit and to run the firmware can be found here:
 [Haptic Telegraph Software Guide](https://docs.google.com/document/d/1zL3_G8BJS4lk9wN5zXE0Af6u3FeUNIUszWQ2UWdJn5c/preview)
 
-![Parts Kit Inventory](Haptic Telegraph Kit Inventory.png)
+![Parts Kit Inventory]("Haptic Telegraph Kit Inventory.png")
 
-![Kit Toolbox](Haptic Telegraph Kit Toolbox.png)
+![Kit Toolbox]('Haptic Telegraph Kit Toolbox.png')
 
 
