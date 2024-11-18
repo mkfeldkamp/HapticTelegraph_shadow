@@ -19,7 +19,7 @@
                                        // tweak your pins, calibration vals, etc. in this .h file.
 unsigned long int printPeriod = 50;    // printing update rate in ms, use ~50 for Serial Plotter
                                        
-bool bTeleoperatingOverSerial = false; // false: dumps *all* diagnostic sensor/command vals to serial
+bool bTeleoperatingOverSerial = false; // false: dumps *all* diagnostic sensor/command vals to serial ***
                                        // true: suppresses diagnostic dump, sends /only* actuator A commands to
                                        //   serial (for processing in python or teleoperation over internet)
                                        //   and receives B commands from serial which drive local actuator B
@@ -34,7 +34,7 @@ float handleSerialTeleoperation(float cmdA, float cmdB);  // definition at botto
 void setup() {
 
   // put your setup code here, to run once:
-  // pinMode(MotorEnablePin, INPUT); //not used by default, 3.3 vs 5V tolerant
+  // pinMode(MotorEnablePin, INPUT); //not used by default, 3.3 vs 5V tolerant ***
   pinMode(LedPin, OUTPUT);      digitalWrite(LedPin, HIGH);  // LED on means power is on  
   pinMode(MotorA1pin, OUTPUT);  pinMode(MotorA2pin, OUTPUT);
   pinMode(MotorB1pin, OUTPUT);  pinMode(MotorB2pin, OUTPUT);
@@ -172,19 +172,19 @@ void loop() {
   // cmdA =  90;                  // locally regulate A to constant position
   // cmdB = -forceA / 5.0 + 90;   // teleoperating forceA to position B
   
-  // (ii) Make A a virtual (local) spring, to get a position deflection; can 
-  // be used as an input device; position of A maps to position of B  
-  // observe: force on A moves both A and B; touching B does nothing to A
-  // observe: touching floor at B is more stable, still easily crushes soft object at B  
+  // // (ii) Make A a virtual (local) spring, to get a position deflection; can 
+  // // be used as an input device; position of A maps to position of B  
+  // // observe: force on A moves both A and B; touching B does nothing to A
+  // // observe: touching floor at B is more stable, still easily crushes soft object at B  
   // cmdA =  forceA / 50.0 + 90;  // a local spring at A
   // cmdB = -forceA / 50.0 + 90;  // transmit force to B
   
-  // (iii) B mirrors A position but w/ a (different) virtual spring implemented locally at B too
-  // observe: move "spring" A with your finger, B should copy motion of A; 
-  // observe: move spring B with finger, deflects like spring but no motion at A
-  // observe: touch soft object with B using A; should be more genle, 
-  //    like touching  with remote spring at B  (very rudimentary impedance/admitance control)
-  // may need to increase denominator scale to lessen effect of forces to stabilize system
+  // //(iii) B mirrors A position but w/ a (different) virtual spring implemented locally at B too
+  // //observe: move "spring" A with your finger, B should copy motion of A; 
+  // //observe: move spring B with finger, deflects like spring but no motion at A
+  // //observe: touch soft object with B using A; should be more genle, 
+  // //   like touching  with remote spring at B  (very rudimentary impedance/admitance control)
+  // // may need to increase denominator scale to lessen effect of forces to stabilize system
   // cmdA =  forceA / 50.0 + 90;  // a local spring at A to transmit a position command to B
   // cmdB = -forceA / 50.0 + 90 - forceB / 50.0; // cmdA minus B "spring" forces 
 
@@ -192,13 +192,13 @@ void loop() {
   // * Bidriectional, A and B exchange signals (only forces for unmodified servo )  * //
   
   // (iv) bilateral force causality: force A to pos B, force of B to pos A 
-  // observe: move paddle A; locally like a stiff spring bc of unmodified servo position P-control
-  //          B should move more than A, like the force dial gauge again, but less sensitive here.
-  //          Now if you move B, it should likewise move A.  This is like *bilateral* force-causality    
-  //          haptics (though we are faking it bc we can't command motor torque, only servo pos)
-  // observe: try to crush a soft object with A, should feel a kickback force and pos on A upon touch 
-  //          compare with touching the rigid floor and trying to go through it. 
-  // TIP:  tilt the base so actuator B just touches target, then apply force to A
+  // // observe: move paddle A; locally like a stiff spring bc of unmodified servo position P-control
+  // //         B should move more than A, like the force dial gauge again, but less sensitive here.
+  // //         Now if you move B, it should likewise move A.  This is like *bilateral* force-causality    
+  // //         haptics (though we are faking it bc we can't command motor torque, only servo pos)
+  // // observe: try to crush a soft object with A, should feel a kickback force and pos on A upon touch 
+  // //          compare with touching the rigid floor and trying to go through it. 
+  // // TIP:  tilt the base so actuator B just touches target, then apply force to A
   // cmdA =  forceB / 50.0 + 90;  // teleoperating forceB to positionA
   // cmdB = -forceA / 50.0 + 90;  // teleoperating forceA to positionB
   
